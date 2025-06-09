@@ -1,0 +1,21 @@
+# Ignore VSCode settings
+.vscode/
+
+# Ignore log files and folders
+log/
+*.log
+
+# Ignore build, install, and other ROS 2 generated folders (if present)
+build/
+install/
+colcon_ws/
+*.pyc
+__pycache__/
+
+# Ignore user-specific and OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore any other unwanted folders (uncomment if you want to ignore these too)
+# move_it_2/
+# robotic_manipulator_6_dof/
