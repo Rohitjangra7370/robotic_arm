@@ -17,10 +17,7 @@ moveit_simple_controller_manager:
       - wrist_1_wrist_2
 
   gripper_controller:
-    type: FollowJointTrajectory
-    action_ns: follow_joint_trajectory
+    type: GripperCommand
+    action_ns: gripper_cmd
     joints:
       - finger_joint
-      - left_outer_finger_joint
-      - right_outer_knuckle_joint
-      - right_outer_finger_joint
