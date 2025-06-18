@@ -1,0 +1,9 @@
+# Default initial positions for arm's ros2_control fake system
+
+initial_positions:
+  base_1_shoulder: 0
+  base_base_1: 0
+  forearm_wrist_1: 0
+  shoulder_upper_arm: 0
+  upper_arm_forearm: 0
+  wrist_1_wrist_2: 0
